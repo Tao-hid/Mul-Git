@@ -13,8 +13,8 @@ if [ "$PROFILE" == "Taohid" ]; then
 elif [ "$PROFILE" == "Redwan" ]; then
     git config --local user.name "redwan1171"
     git config --local user.email "md.redwanuzzaman@brainstation-23.com"
-elif [ "$PROFILE" == "tao73bot" ]; then
-    git config --local user.name "tao73bot"
+elif [ "$PROFILE" == "Taohid73" ]; then
+    git config --local user.name "Taohid73"
     git config --local user.email "mdtaohidul73@student.sust.edu"
 else
     echo "Unknown profile: $PROFILE"
