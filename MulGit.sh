@@ -8,13 +8,13 @@ PROFILE="$1"
 
 # Set Git config based on the profile
 if [ "$PROFILE" == "Taohid" ]; then
-    git config --local user.name "Taohidul Islam"
+    git config --local user.name "Taohid-BS23"
     git config --local user.email "taohidul.islam@brainstation-23.com"
 elif [ "$PROFILE" == "Redwan" ]; then
     git config --local user.name "redwan1171"
     git config --local user.email "md.redwanuzzaman@brainstation-23.com"
-elif [ "$PROFILE" == "tao73bot" ]; then
-    git config --local user.name "tao73bot"
+elif [ "$PROFILE" == "Taohid73" ]; then
+    git config --local user.name "Taohid73"
     git config --local user.email "mdtaohidul73@student.sust.edu"
 else
     echo "Unknown profile: $PROFILE"
